@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container .content{
+    margin: 2vh 10vw;
+    display: block;
+}
+.container .content .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container .content .header .logo img{
+    width: 25px;
+}
+.container .content .header .navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+.container .content .header .navbar ul li{
+    margin: 0 1vw;
+    
+}
+.container .content .header .navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.container .content .header .navbar ul li:hover a{
+    color: blue;
+    border-bottom: 2px solid blue;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+}
+.container .content .main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+
+}
+.container .content .main .text{
+    width: 30vw;
+    display: block;
+
+}
+.container .content .main .text h1{
+    width: 50vw;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container .content .main .text p{
+    margin: 2vh 0;
+}
+.container .content .main .text button{
+    width: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container .content .main .image img{
+    width: 200px;
+}
+.container .content .mobiles{
+    
+}
+.container .content .mobiles .images{
+
+}
+.container .content .mobiles .images ul{
+    display: flex;
+    list-style: none;
+    
+    justify-content: center;
+}
+.container .content .mobiles .images ul li{
+    margin: 0 1vw;
+    cursor: pointer;
+}
+.container .content .mobiles .images img{
+    width: 30px;
+}
